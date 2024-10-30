@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.P72_Weather" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/blue</item>
+         <item name="android:statusBarColor">@color/blue</item>
+         <item name="colorPrimaryVariant">@color/blue</item>
+    </style>
+
+    <style name="MySplashScreen" parent="Theme.SplashScreen">
+        <item name="postSplashScreenTheme">@style/Base.Theme.P72_Weather</item>
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/weather_splash</item>
+    </style>
+
+    <style name="Theme.P72_Weather" parent="Base.Theme.P72_Weather" />
+</resources>

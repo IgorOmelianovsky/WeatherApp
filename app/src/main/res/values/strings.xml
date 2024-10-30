@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">P72_Weather</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="image">image</string>
+    <string name="current">Current:</string>
+    <string name="image_button">image_button</string>
+    <string name="forecast">Forecast:</string>
+    <string name="hours">Hours:</string>
+</resources>
